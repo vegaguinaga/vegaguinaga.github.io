@@ -1,4 +1,10 @@
+#Site settings
+title: jose vega
+email: vegaguinaga@gmail.com
+description: "Thinker // Developer //blogger"
 
+
+#Build settings
 markdown: kramdown
 permalink: pretty
 
