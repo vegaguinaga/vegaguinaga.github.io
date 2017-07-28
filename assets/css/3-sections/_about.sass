@@ -1,7 +1,8 @@
 h3
     @extend %small-bold
-    color: $accent
+    color: $accent-ligth
     text-align: center
+    padding: 100px 0 30px
 
 .face-lockup
     max-width: 780px
@@ -17,12 +18,24 @@ h3
 
 [class^="icon-"]
     +size(100px)
+    background: $bgcolor
+    border-radius: 50%
+
+    path
+        fill: $accent
 
     &.icon-chrome
         order: 1
-    &.icon-html5
+    &.icon-jekyll
         order: 2
     &.icon-php
         order: 4
     &.icon-laravel
         order: 5
+.blurb
+    max-width: 620px
+    padding: 0 15px
+    margin: 50px auto
+    font-size: 24px
+    text-align: center
+    font-weight: 300
